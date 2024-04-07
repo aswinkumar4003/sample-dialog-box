@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+
+		
+		
+		
+		<style>
+		
+		h1
+		{
+			font-size : 35px;
+			color :rgb(15, 2, 2);
+			background-color: rgba(75, 105, 131, 0.534);
+			border: 2px solid lightgrey ;
+			padding: 15px;
+		}
+		
+		button
+		{
+			background:rgb(0, 119, 255);
+			color:white;
+			border: 2px solid black;
+			font-size :15px;
+			padding:10px;
+		}
+		
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<center>
+		
+		<h1>Sample Dialog Box</h1>
+		
+		<button onclick="OpenWindow1()">Login</button>
+		<button onclick="OpenWindow2()">Biography</button>
+		<button onclick="OpenWindow3()">Google Map</button>
+		</center>
+		
+		<script>
+			
+			var a;
+			
+			function OpenWindow1()
+			{
+				a=window.open("login.html","","width=auto,height=auto");
+			}
+
+			
+			var b;
+
+			function OpenWindow2()
+			{
+				b=window.open("bio.html","","width=auto,height=auto");
+			}
+			var c;
+
+			function OpenWindow3()
+			{
+				c=window.open("map.html","","width=auto,height=auto");
+			}
+				
+		
+			</script>
+		
+	</body>
+	
+</html>
